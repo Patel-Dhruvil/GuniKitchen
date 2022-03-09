@@ -15,8 +15,6 @@ namespace GuniKitchen.Models
         [Required]
         public string Name { get; set; }
 
-        [Display(Name = "Image")]
-        public string ImageUrl { get; set; }
 
         [Display(Name = "Date")]
         [Required]
